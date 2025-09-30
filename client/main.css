@@ -1,0 +1,48 @@
+img {
+  border-radius: .5rem;
+  background: #f6f6f6;
+}
+table th {
+  width: 180px;
+  white-space: nowrap;
+}
+
+body {
+  background: url("https://th.bing.com/th/id/R.85b3314cd32bc6f3bd59f21e9dbec0d0?rik=hOz9nR4V7Ji0%2bQ&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f10%2f68%2fgw6JbD.jpg&ehk=oOizLJnfdJFm4PjX5S2jNJRtchv0GE5c57%2bMvZGFNVk%3d&risl=&pid=ImgRaw&r=0") no-repeat center center fixed;
+  background-size: cover; /* make sure it covers the whole screen */
+  min-height: 100vh;
+  font-family: system-ui, sans-serif;
+}
+
+main.container, header.container, footer.container {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+header.banner {
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+  width: 100%;
+  border-radius: 0 0 1rem 1rem;
+  margin-bottom: 1rem;
+}
+
+header.banner h1 {
+  margin: 0;
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+  color: #fefefe;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
+
+header.banner nav ul {
+  display: inline-flex;
+  list-style: none;
+  gap: 1rem;
+  margin: 0.5rem 0 0;
+  padding: 0;
+}
