@@ -1,4 +1,3 @@
-import { Router } from "express";
-import TrailsController from "../controllers/trailsController.js";
+import TrailsController from "../controllers/trails.js";
 
-Router.length('/',TrailsController.getAllTrails);
+router.get('/', TrailsController.getAllTrails);
